@@ -23,5 +23,5 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Run tests with Maven
-        run: mvn clean test
+      - name: Build application with Maven
+        run: mvn clean package
