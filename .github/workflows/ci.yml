@@ -31,3 +31,6 @@ jobs:
         with:
           name: github-actions-docker-lab-jar
           path: target/*.jar
+
+      - name: Build Docker image
+        run: docker build -t github-actions-docker-lab:latest
